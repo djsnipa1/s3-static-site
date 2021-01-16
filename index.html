@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chad's S3 Files</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div class="container">
+    <h1>Chad's S3 files</h1>
+    
+<div id="navigation"></div>
+<div id="listing"></div>
+
+<!-- add jQuery - if you already have it just ignore this line -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- the JS variables for the listing -->
+<script type="text/javascript">
+  var S3BL_IGNORE_PATH = true;
+  // var BUCKET_NAME = 'chads-files';
+  var BUCKET_URL = 'http://chads-files.s3.us-east-2.amazonaws.com';
+  // var S3B_ROOT_DIR = 'SUBDIR_L1/SUBDIR_L2/';
+  // var S3B_SORT = 'DEFAULT';
+  // var EXCLUDE_FILE = 'index.html';  // change to array to exclude multiple files
+  // var AUTO_TITLE = true;
+  // var S3_REGION = 's3'; // for us-east-1
+</script>
+
+<!-- the JS to the do the listing -->
+<script type="text/javascript" src="https://rufuspollock.github.io/s3-bucket-listing/list.js"></script>
+ </div>
+ 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
